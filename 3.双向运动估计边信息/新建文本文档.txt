@@ -1,0 +1,12 @@
+i = 0.1:0.1:0.9;
+for j=1:9
+a(j) = DCVS('Coastguard_cif', 3, 2, i(j), 0.3, 352, 288, 100);
+end
+plot(i,a);
+
+
+
+for i = 0.1:0.2:0.9
+j=5*(i+0.1)
+a(j) = DCVS('Coastguard_cif', 7, 3, i, 0.4, 352, 288, 100);
+end
